@@ -3,6 +3,7 @@
 ******
 #### Logo:
 #### ![Logo](https://github.com/Takuhaya123/Project_MgMananghaya/blob/main/images/Logo.png)
+#### File:Formula-1-70th-aniversary-logo.jpg - Wikimedia Commons. (2020, January 2). Retrieved September 18, 2022, from https://commons.wikimedia.org/wiki/File:Formula-1-70th-aniversary-logo.jpg
 ### Description
 ### This webpage aims to talk about the sport which includes the drivers themselves, together with their teams and the logistical hurdles they have to overcome. It is a very interesting sport to me and is something that I am very interested in, so this was my best option to stay motivated throughout the two quarter duration of this project. I want to show my readers that there is more to the sport than just skilled drivers racing in circles hoping for a win.
 ******
