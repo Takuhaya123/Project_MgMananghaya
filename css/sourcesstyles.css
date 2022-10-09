@@ -1,0 +1,21 @@
+/*-----------------------TABLE FOR SOURCES-----------------------*/
+.sources{
+  width: 100vw;
+  position: absolute;
+  top: 20vh;
+  left: 5vw;
+}
+.srctable{
+  border-collapse: collapse;
+  color:#fff;
+  background: rgba(0,0,0,0.5);
+}
+.srctable th, td{
+  border: 2px solid rgba(225,0,0,0.5);
+  width: 30vw;
+  padding: 2px;
+  text-align: center;
+}
+.srctable td{
+  font-size: 1.5vh;
+}
