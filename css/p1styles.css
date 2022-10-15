@@ -1,0 +1,44 @@
+.part2 img{
+  max-height: 158vh;
+}
+
+/*-----------------------TIMELINE FOR PAGE 1 (OVERVIEW)-----------------------*/
+.timeline{
+  max-width: 65vw;
+  max-height: 40vh;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  transform: translate(9vh, 0vh);
+  z-index: 6;
+}
+.timelinestyle{
+  width: 25vw;
+  height: 35vh;
+  position: absolute;
+  z-index: 100;
+  top: 275vh;
+  display: inline-block;
+}
+.timelineheader{
+  color: #f44336;
+  font-size: 6vh;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  background: black;
+}
+.timelinestyle ul{
+  font-family: 'Raleway', sans-serif;
+  color: #fff;
+  padding-top: 1vh;
+  text-decoration: none;
+  background: #f44336;
+}
+.timelinestyle ul li{
+  font-family: 'Raleway', sans serif;
+  font-weight: bold;
+  list-style: none;
+  padding: 2vh 0vh 2vh 0vh;
+  position: relative;
+  font-size: 3vh;
+}

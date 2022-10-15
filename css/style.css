@@ -1,0 +1,27 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+/*-----------------------TEXT CONFIGS-----------------------*/
+.text-box{
+  width: 90%;
+  background-color: rgba(0,0,0,0.6);
+  color: #fff;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  transform: translate (-50%, -50%);
+}
+  .text-box h1{
+    font-size: 6vh;
+  }
+  .text-box p{
+    margin: .5% 0 .5%;
+    color: #fff;
+  }
+.supporting-image{
+  z-index: 3;
+  right: 6%;
+  position: absolute;
+}
