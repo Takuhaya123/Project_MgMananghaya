@@ -1,0 +1,68 @@
+/*----------------BACKGROUND CONFIG----------------*/
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/P1.1.png);
+  min-height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/*----------------CONTENT CONFIGS----------------*/
+.p1text-box2, .p1text-box3{
+  width: 95%;
+  height: 30vw;
+  background-color: rgba(0,0,0,0.6);
+  color: #fff;
+  margin: 5vh auto 5vh;
+  text-align: left;
+}
+  .p1text-box2 h1, .p1text-box3 h1{
+    font-size: 4vw;
+    font-family: 'Oswald', sans-serif;
+    color: #f44336;
+    margin-left: 1%;
+  }
+  .imageright{
+    float: right;
+    width: 28vw;
+    margin: 1% 1%;
+  }
+/*----------------TEXT BOX 2 CONFIGS----------------*/
+.p1text-box2{
+  height: 80vw;
+}
+.p1infographic, .p1infographicmobile{
+  width: 95%;
+  margin: 0 2.5%;
+}
+/*----------------TEXT BOX 3 CONFIGS----------------*/
+.p1text-box3{
+  height: 35vw;
+}
+.timelinecontainer{
+  width: 95%;
+  display: flex;
+  margin: 0 auto;
+}
+  .timelinecontainer div{
+    margin: 3vh 2vw;
+    width: 35vw;
+    text-align: center;
+    background-color: #f44336;
+  }
+    .timelinecontainer h1{
+      font-size: 3vw;
+      color: #f44336;
+      background-color: black;
+      padding: 1vw;
+      margin: 0;
+    }
+      .timelinecontainer p{
+      font-family: 'Oswald', sans-serif;
+      font-size: 1.7vw;
+      color: white;
+      padding: 1vw;
+      display: block;
+      }

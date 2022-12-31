@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!--Declaration of meta tags and viewports-->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="A. Mananghaya 9-Magnesium">
+  <meta name="keywords" content="F1, Formula 1, Cars, Sport, CSS, HTML">
+  <!--Calling of stylesheet and fonts-->
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/headerfooter.css">
+  <link rel="stylesheet" href="../css/p1styles.css">
+  <link rel="stylesheet" href="../css/mediastyles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <!--Site Logo and Title-->
+  <link rel="icon" href="../images/SiteLogo.png" type=".png">
+  <title>Overview</title>
+
+<!--Script for displaying the scroll button-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script>
+$(window).scroll(function() {
+    if ($(this).scrollTop()>200)
+     {
+        $('.scrolltotop').fadeIn();
+     }
+    else
+     {
+      $('.scrolltotop').fadeOut();
+     }
+ });
+</script>
+</head>
+  
+<!--Header-->
+<div class="mainheader">
+  <img src="../images/Header.png" alt="Header" style="position: relative; position: center; top: 5%;">
+  <div id="mobilenav" class="mobilenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+    <a href="../index.html">HOME</a>
+    <a href="p1overview.html">OVERVIEW</a>
+    <a href="p2drivers.html">DRIVERS (2022)</a>
+    <a href="p3tech.html">TECHNOLOGY AND LOGISTICS</a>
+    <a href="p4halloffame.html">HALL OF FAME</a>
+    <a href="p5raceweek.html">RACE WEEK</a>
+    <a href="sources.html">SOURCES</a>
+  </div>
+  <button class="openbtn" onclick="openNav()">☰</button>
+</div>
+
+  <div class="header" id="header">
+    <div class="nav-links">
+      <ul>
+        <li><a href="../index.html">HOME</a></li>
+        <li><a href="p1overview.html">OVERVIEW</a></li>
+        <li><a href="p2drivers.html">DRIVERS (2022)</a></li>
+        <li><a href="p3tech.html">TECHNOLOGY AND LOGISTICS</a></li>
+        <li><a href="p4halloffame.html">HALL OF FAME</a></li>
+        <li><a href="p5raceweek.html">RACE WEEK</a></li>
+        <li><a href="sources.html">SOURCES</a></li>
+      </ul>
+    </div>
+  </div>
+
+<!--Contents-->
+
+<div id="scroll"></div>
+
+<div class="text-box1">
+  <img src="../images/P1.2.png" alt="1950 British Grand Prix" class="imageright">
+  <h1>History</h1>
+  <em>A Tale of Speed</em>
+  <p>
+    <span> Formula 1 is a sport of rich history, giving birth to timeless</span>
+    <span class="highlight">legends</span>
+    <span>who proved their mettle through countless races and seasons. With its first championship race taking place on </span>
+    <span class="highlight">May 1950 at Silverstone</span>
+    <span>. Unlike the current sport consisting of many formalities to be able to race, the early races of Formula 1 had many different individuals who bought cars to race. However, pre-war manufacturers such as </span>
+    <span class="highlight">Ferrari, Alfa Romeo, and Mercedes Benz</span> <span>saw great success in the sport. Throughout the years, there have been many major changes in the sport in its every aspect. From being a sport where anyone can join provided they have a car, to a more formal sport where
+    <span class="highlight">tremendous</span> amounts of funding and personnel are needed to even compete, Formula 1 is now a sport that is more
+    <span class="highlight">complex</span> than what most people imagine it to be. This website discusses these
+    <span class="highlight">changes and components</span> and how each of them impact the sport as a whole.</span>
+  </p>
+</div>
+
+<div class="p1text-box2">
+  <h1>F1 Engine Eras</h1>
+  <img src="../images/P1.3.png" alt="F1 Engine Eras Infographic" class="p1infographic">
+  <img src="../images/P1.3mobile.png" alt="F1 Engine Eras Infographic" class="p1infographicmobile">
+</div>
+
+<div class="p1text-box3">
+  <h1>Season Timeline</h1>
+  <div class="timelinecontainer">
+    <div class="Pre-Season">
+      <h1>Pre-Season</h1>
+      <p>Finalization of Development</p>
+      <p>Testing and Improvement</p>
+      <p>Signing Up Drivers</p>
+    </div>
+    <div class="Season">
+      <h1>Season</h1>
+      <p>Racing and Obtaining Points</p>
+      <p>Vehicle Modifications</p>
+      <p>Pace Improvements</p>
+    </div>
+    <div class="Post-Season">
+      <h1>Post-Season</h1>
+      <p>Driver and Sponsor Contracts</p>
+      <p>Developing Next Season's Car</p>
+      <p>Reflecting on Season Results</p>
+    </div>
+  </div>
+</div>
+
+<a href="#scroll"class="scrolltotop">⇧</a>
+
+<!--Footer-->
+<section class="footer" style= "bottom: 0;">
+    <div class="column" id="footercolumn1">
+    <p style="font-family: 'Oswald', sans-serif;">
+      <a href="https://www.formula1.com/" class="anch" target="_blank"> <img src="../images/footersprite.png" alt="F1" id="OfficialF1"> Official F1 Page</a><br></p>
+    <p style="font-family: 'Oswald', sans-serif; margin-top: 1vh;">
+      <a href="https://twitter.com/f1" class="anch" target="_blank"> <img src="../images/footersprite.png" alt="Twitter" id="Twitter"> Official F1 Twitter</a><br>
+    </p>
+  </div>
+  <div class="column" id="footercolumn2">
+    <p style="font-family: 'Oswald', sans-serif; text-align: right;">
+      <a href="https://www.tiktok.com/@f1?lang=en#:~:text=Formula%201%20(%40f1)%20Official,Formula%201%27s%20Newest%20TikTok%20Videos" class="anch" target="_blank">Official F1 TikTok <img src="../images/footersprite.png" alt="TikTok" id="TikTok"></a><br></p>
+    <p style="font-family: 'Oswald', sans-serif; margin-top: 1vh; text-align: right;">
+      <a href="https://www.formula1.com/en/racing/2022.html" class="anch" target="_blank">2022 Season Schedule <img src="../images/footersprite.png" alt="Calendar" id="Calendar"></a></p>
+  </div>
+</section>
+
+<section class="mobilefooter" style="bottom: 0;">
+  <p class="mobilefootercaption">Want to catch up on the race?</p>
+  <div class="mobilefooter-content">
+    <a href="https://www.formula1.com/" class="anch"> <img src="../images/F1.png" alt="F1"></a>
+    <a href="https://twitter.com/f1" class="anch"> <img src="../images/Twitter.png" alt="Twitter"></a>
+    <a href="https://www.tiktok.com/@f1?lang=en#:~:text=Formula%201%20(%40f1)%20Official,Formula%201%27s%20Newest%20TikTok%20Videos" class="anch"><img src="../images/TikTok.png" alt="F1"></a>
+    <a href="https://www.formula1.com/en/racing/2022.html" class="mobanch"><img src="../images/Calendar.png" alt="Calendar"></a>
+  </div>
+</section>
+
+<!--Script for fixed part of header-->
+<script>
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("header");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+</script>
+<!--Script for mobile nav-->
+<script>
+  function openNav() {
+  document.getElementById("mobilenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mobilenav").style.width = "0";
+}
+</script>
+<!--Script for smooth scrolling-->
+<script>
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,90 @@
+.desc{
+  
+}
+.circle{
+  border-radius: 50%;
+  overflow: hidden;
+  shape-outside: circle();
+}
+.driver{
+  width: 25vw;
+  height: 25vw;
+  margin: 1vw;
+  float: left;  
+}
+.inverteda{
+  float: right;
+}
+.driver img{
+  width: 25vw;
+  height: 25vw;
+}
+.car{
+  width: 20vw;
+  height: 20vw;
+  margin: 1vw;
+  float: right;
+}
+.invertedb{
+  float: left;
+}
+.car img{
+  width: 20vw;
+  height: 20vw;
+}
+.spacer{
+  width: 100vw;
+  height: 2vw;
+}
+#fangiosenna{
+  background: linear-gradient(to bottom, rgb(57, 61, 71), rgb(168, 84, 24))
+}
+#prostschumacher{
+  background: linear-gradient(to bottom, rgb(168, 84, 24), rgb(100, 0, 0))
+}
+#vettelhamilton{
+  background: linear-gradient(to bottom, rgb(0, 0, 100), rgb(57, 61, 71))
+}
+
+#fangio, #hamilton, #senna, #prost, #schumacher, #vettel, #hamilton{
+  width: 100vw;
+  height: auto;
+  margin: 0;
+  padding-bottom: 2vw;
+}
+#fangio, #hamilton{
+  background: rgb(57, 61, 71);
+  background-image: linear-gradient(rgba(57, 61, 71, 0.6), rgba(57, 61, 71, 0.6)), url(../images/P4merclogo.png);
+  background-size: 20vw 20vw;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#senna, #prost{
+  background: rgb(168, 84, 24);
+  background-image: linear-gradient(rgba(168, 84, 24, 0.6), rgba(168, 84, 24, 0.6)), url(../images/P4mclarenlogo.png);
+  background-size: auto 7vw;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.senna{
+  width: 15vw;
+  height: 15vw;
+  margin: 1vw 1vw 1vw 0;
+  float: left;
+}
+
+#schumacher{
+  background: rgb(100, 0, 0);
+  background-image: linear-gradient(rgba(100, 0, 0, 0.6), rgba(100, 0, 0, 0.6)), url(../images/P4ferrarilogo.png);
+  background-size: 20vw 20vw;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#vettel{
+  background: rgb(0, 0, 100);
+  background-image: linear-gradient(rgba(0, 0, 100, 0.6), rgba(0, 0, 100, 0.6)), url(../images/P4redbulllogo.png);
+  background-size: 20vw 20vw;
+  background-repeat: no-repeat;
+  background-position: center;
+}

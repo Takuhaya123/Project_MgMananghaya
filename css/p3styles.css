@@ -1,0 +1,194 @@
+/*----------------BACKGROUND CONFIG----------------*/
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/P3.1.png);
+  min-height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+/*----------------CONTENT CONFIGS----------------*/
+@keyframes descriptions-enter{
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+@keyframes descriptions-exit{
+  from {opacity: 1;}
+  to {opacity: 0;}
+}
+@keyframes powerunit-enter{
+  from {opacity: 0;}
+  to {opacity: .8;}
+}
+@keyframes powerunit-exit{
+  from {opacity: .8;}
+  to {opacity: 0;}
+}
+
+#enginevid{
+  float: right;
+  width: 40vw;
+  height: 28vw;
+  margin: 1% 1%;
+}
+.componentscontainer{
+  width: 95%;
+  height: 34vw;
+  background-color: rgba(0,0,0,0.6);
+  color: #fff;
+  margin: 5vh auto 5vh;
+  text-align: left;
+  overflow: hidden;
+  transition: 2s ease;
+}
+  .componentscontainer h1{
+    font-size: 4vw;
+    font-family: 'Oswald', sans-serif;
+    color: #f44336;
+    margin-left: 1%;
+  }
+  .components h1{
+    font-size: 2vw;
+    font-family: 'Oswald', sans-serif;
+    color: #f44336;
+    margin-left: 1%;
+    margin-right: 2%;
+  }
+  .components em{
+    font-size: 1vw;
+    margin-left: 1%;
+  }
+  .components p{
+    margin: .5% 0 .5%;
+    color: #fff;
+    font-size: .8vw;
+    text-indent: 5%;
+    margin-left: 1%;
+  }
+  .components .highlight{
+    font-size: .8vw;
+  }
+  #powerunit{
+    width: 28vw;
+    position: absolute;
+    opacity: .8;
+    top: 14%;
+    left: 24vw;
+    z-index: -1;
+    display: none;
+    animation-duration: .5s;
+  }
+
+.components{
+  background-image: url("../images/Page 3/P3.2.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 21.2vw;
+  z-index: 2;
+  overflow-y: hidden;
+  transition: ease 2s;
+}
+.components > img{
+  rotate: y 180deg;
+}
+
+/*----------------DESCRIPTIONS----------------*/
+#Tiresdesc, #Aerodesc, #Icedesc, #Halodesc, #Strwheeldesc{
+  display: none;
+  background-color: rgba(0,0,0,0.8);
+  position: absolute;
+  width: 24vw;
+  animation-duration: 2s;
+  z-index: 10;
+}
+#Tiresdesc{
+  top: 33%;
+  left: 51vw;
+}
+#tiretypes{
+  width: 13.5vw;
+  float: left;
+  margin: 2% 1.5% 0;
+}
+#DRS{
+  width: 6vw;
+  float: left;
+  margin: 2% 1.5%;
+}
+#Aerodesc{
+  top: 10%;
+  left: 9vw;
+}
+#Icedesc{
+  top: 14%;
+  left: 11vw;
+}
+#Halodesc{
+  top: 13%;
+  left: 29.5vw;
+}
+#Strwheeldesc{
+  top: 28%;
+  left: 31vw;
+}
+#strwheel{
+  width: 10vw;
+  float: left;
+  margin: 1% 1.5%;
+}
+
+/*----------------BUTTONS----------------*/
+#tiresbtn, #aerobtn, #removetires, #removeaero, #icebtn, #removeice, #halobtn, #removehalo, #removestrwheel{
+  width: 3vw;
+  height: 3vw;
+  border: 0;
+  transition: transform 3s ease;
+  z-index: 5;
+}
+#strwheelbtn{
+  width: 2vw;
+  height: 2vw;
+  border: 0;
+  transition: transform 3s ease;
+  z-index: 5;
+}
+#tiresbtn, #aerobtn, #icebtn, #halobtn, #strwheelbtn{
+  position: absolute;
+}
+#removetires, #removeaero, #removeice, #removehalo, #removestrwheel{
+  position: relative;
+  margin: 0 .3vw;
+}
+#tiresbtn:hover, #removetires:hover, #aerobtn:hover, #removeaero:hover, #icebtn:hover, #removeice:hover, #halobtn:hover, #removehalo:hover, #strwheelbtn:hover, #removestrwheel:hover{
+  transform: rotate(720deg);
+}
+
+#tiresbtn{
+  margin-left: 75vw;
+  margin-top: 8vw;
+}
+#aerobtn{
+  margin-left: 6vw;
+  margin-top: 3vw;
+}
+#icebtn{
+  margin-left: 35vw;
+  margin-top: 4vw;
+}
+#halobtn{
+  margin-left: 53.5vw;
+  margin-top: 3vw;
+}
+#strwheelbtn{
+  margin-left: 55vw;
+  margin-top: 6.5vw;
+}
+
+#removetires, #removestrwheel, #removeice, #removehalo{
+  float: left;
+}
+#removeaero{
+  float: right;
+}

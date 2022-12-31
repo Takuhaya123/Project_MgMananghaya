@@ -1,0 +1,114 @@
+/*----------------BACKGROUND CONFIG----------------*/
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/P2.1.png);
+  min-height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/*----------------FLEX CONFIGS----------------*/
+.bigcontainer{
+  width: 95%;
+  height: 30vw;
+  background-color: rgba(0,0,0,0.6);
+  color: #fff;
+  margin: 5vh auto 5vh;
+  text-align: left;
+}
+  .bigcontainer h1{
+    font-size: 4vw;
+    font-family: 'Oswald', sans-serif;
+    color: #f44336;
+    margin-left: 1%;
+  }
+  .bigcontainer em{
+    font-size: 2vw;
+    margin-left: 1%;
+  }
+  .bigcontainer .highlight{
+    font-size: 1.6vw;
+  }
+
+
+.bigcontainer{
+  height: 130vw;
+}
+.drivercontainer{
+  display: flex;
+  width: 95%;
+  margin: 0 auto;
+  flex-direction: column;
+}
+  .drivercontainer section{
+    margin: 0;
+    width: 100%;
+    transition: ease-out .5s;
+  }
+    .drivercontainer section > div:hover{
+      transform: scale(1.05);
+    }
+    .driverbox{
+      width: 50%;
+      margin: 0;
+      float: left;
+    }
+      .driverimg{
+        float: left;
+        margin: 1vw 0;
+        height: 10vw;
+      }
+      .driverbox h1{
+        color: white;
+      }
+      .red{
+        color: #f44336;
+        font-style: italic;
+      }
+      .numimg{
+        height: 5vw;
+        display: flex;
+        align-items: center;
+      }
+      .numimg img{
+        float: left;
+        height: 5vw;
+      }
+      .numimg span, .numimg em{
+        font-family: 'Cantarell', sans-serif;
+        font-size: 2vw;
+        line-height: 2vw;
+      }
+/*----------------TEAM COLOR CONFIGS----------------*/
+.redbull{
+  background-color: rgba(0,0,100,0.7);
+}
+.merc{
+  background-color: rgba(93,92,91,0.7);
+}
+.ferrari{
+  background-color: rgba(100,0,0,0.7);
+}
+.mclaren{
+  background-color: rgba(198, 81, 2,0.7);
+}
+.alpine{
+  background-color: rgba(0,0,80,0.7);
+}
+.alfa{
+  background-color: rgba(194,38,54,0.7);
+}
+.aston{
+  background-color: rgba(1,50,32,0.7);
+}
+.haas{
+  background-color: rgba(139,0,0,0.7);
+}
+.alphatauri{
+  background-color: rgba(0,0,150,0.7);
+}
+.williams{
+  background-color: rgba(0,181,226,0.7);
+}

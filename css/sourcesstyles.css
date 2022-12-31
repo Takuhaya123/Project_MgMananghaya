@@ -1,0 +1,48 @@
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/P1.1.png);
+  min-height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.sources{
+  width: 95%;
+  height: 250vw;
+  background-color: rgba(0,0,0,0.6);
+  color: #fff;
+  margin: 5vh auto 5vh;
+  text-align: left;
+}
+.sources h1{
+  font-size: 4vw;
+  font-family: 'Oswald', sans-serif;
+  color: #f44336;
+  margin-left: 1%;
+}
+.sourcescontainer{
+  width: 95%;
+  display: flex;
+  margin: 0 auto;
+}
+  .sourcescontainer div{
+    margin: 3vh 2vw;
+    width: calc(50%-2vw);
+    text-align: left;
+  }
+  .sourcescontainer p{
+    text-indent: -2vw;
+    padding: 0 0 0 2vw;
+  }
+    .sourcescontainer h1{
+      font-family: 'Oswald', sans-serif;
+      font-size: 2vw;
+      color: #f44336;
+      display: block;  
+    }
+      .sourcescontainer p, .sourcescontainer em, .sourcescontainer a{
+      font-family: 'Oswald', sans-serif;
+      font-size: 1.5vw;
+      color: white;
+      }

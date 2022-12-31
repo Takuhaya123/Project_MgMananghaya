@@ -1,0 +1,378 @@
+/*-------------FOR MEDIA COMPATIBILITY-------------*/
+@media only screen and (max-width: 1440px){
+  .mainheader img{
+    width: 40vw;
+  }
+}
+@media only screen and (max-width: 1300px){
+  .nav-links ul li a, .column p a{
+    font-size: 1.3vw;
+  }
+}
+@media only screen and (max-width: 1000px){
+  .mainheader img{
+    width: 45vw;
+  }
+  .header{
+    margin-top: -2vh;
+  }
+  .column p a img{
+    width: 2vw;
+    height: 1.5vw;
+  }
+}
+@media only screen and (max-width: 800px){
+  .nav-links ul li a, .column p a{
+    font-size: 1.8vw;
+  }
+  .nav-links ul li{
+    padding: 3vh .7vw 0 .7vw;
+  }
+  .column p a img{
+    width: 2vw;
+    height: 1.5vw;
+  }
+}
+@media only screen and (max-width: 750px){
+  .mainheader img{
+    width: 55vw;
+  }
+  .nav-links ul li a,{
+    font-size: 1.7vw;
+  }
+  .column p a{
+    font-size: 2vw;
+  }
+}
+/* toggle mobile footer and sidebar */
+@media only screen and (min-width: 601px){
+  .openbtn, .mobilefooter, .p1infographicmobile{
+    display: none;
+  }
+}
+@media only screen and (width: 912px) and (height: 1368px){ /* surface pro 7 */
+  .mainheader img{
+    width: 80vw;
+    padding: 2vw;
+  }
+  .nav-links{
+    display: none;
+  }
+  .mobilenav, .openbtn{
+    display: block;
+  }
+  .footer{
+    display: none;
+  }
+  .mobilefooter{
+    display: block;
+  }
+  #homepageh1{
+    font-size: 10vw;
+  }
+  #homepageem{
+    font-size: 7vw;
+  }
+  #homepagep{
+    font-size: 4vw;
+  }
+  .sitesummary{
+    display: block;
+  }
+  .sitesummary section{
+    width: 100%;
+    padding: 2vw 0;
+  }
+  .sitesummary div{
+    margin: 2vw 0;
+    height: 24vw;
+  }
+  .sitesummary h1{
+    font-size: 5vw;
+    margin-top: -.6vw;
+    margin-bottom: -.7vw;
+  }
+  .sitesummary em{
+    font-size: 3.5vw;
+  }
+  .sitesummary p{
+    font-size: 3vw;
+    margin-top: .1vw;
+    text-indent: .7vw;
+  }
+  .sitesummary img{
+    width: 20vw;
+  }
+  .mobilefooter-content img{
+  width: 12vw;
+  }
+}
+@media only screen and (width: 820px) and (height: 1180px){ /* ipad air*/
+  .mainheader img{
+    width: 80vw;
+    padding: 2vw;
+  }
+  .nav-links{
+    display: none;
+  }
+  .mobilenav, .openbtn{
+    display: block;
+  }
+  .footer{
+    display: none;
+  }
+  .mobilefooter{
+    display: block;
+  }
+  #homepageh1{
+    font-size: 10vw;
+  }
+  #homepageem{
+    font-size: 7vw;
+  }
+  #homepagep{
+    font-size: 4vw;
+  }
+  .sitesummary{
+    display: block;
+  }
+  .sitesummary section{
+    width: 100%;
+    padding: 2vw 0;
+  }
+  .sitesummary div{
+    margin: 2vw 0;
+    height: 24vw;
+  }
+  .sitesummary h1{
+    font-size: 5vw;
+    margin-top: -.6vw;
+    margin-bottom: -.7vw;
+  }
+  .sitesummary em{
+    font-size: 3.5vw;
+  }
+  .sitesummary p{
+    font-size: 3vw;
+    margin-top: .1vw;
+    text-indent: .7vw;
+  }
+  .sitesummary img{
+    width: 20vw;
+  }
+  .mobilefooter-content img{
+  width: 12vw;
+  }
+}
+@media only screen and (width: 768px) and (height: 1024px){
+ /* ipad mini*/
+  .mainheader img{
+    width: 80vw;
+    padding: 2vw;
+  }
+  .nav-links{
+    display: none;
+  }
+  .mobilenav, .openbtn{
+    display: block;
+  }
+  .footer{
+    display: none;
+  }
+  .mobilefooter{
+    display: block;
+  }
+  #homepageh1{
+    font-size: 10vw;
+  }
+  #homepageem{
+    font-size: 7vw;
+  }
+  #homepagep{
+    font-size: 4vw;
+  }
+  .sitesummary{
+    display: block;
+  }
+  .sitesummary section{
+    width: 100%;
+    padding: 2vw 0;
+  }
+  .sitesummary div{
+    margin: 2vw 0;
+    height: 24vw;
+  }
+  .sitesummary h1{
+    font-size: 5vw;
+    margin-top: -.6vw;
+    margin-bottom: -.7vw;
+  }
+  .sitesummary em{
+    font-size: 3.5vw;
+  }
+  .sitesummary p{
+    font-size: 3vw;
+    margin-top: .1vw;
+    text-indent: .7vw;
+  }
+  .sitesummary img{
+    width: 20vw;
+  }
+  .mobilefooter-content img{
+  width: 12vw;
+  }
+}
+@media only screen and (max-width: 600px){
+  .mainheader img{
+    width: 80vw;
+    padding: 2vw;
+  }
+  .nav-links{
+    display: none;
+  }
+  .mobilenav, .openbtn{
+    display: block;
+  }
+  .footer{
+    display: none;
+  }
+  .mobilefooter{
+    display: block;
+  }
+  #homepageh1{
+    font-size: 10vw;
+  }
+  #homepageem{
+    font-size: 7vw;
+  }
+  #homepagep{
+    font-size: 4vw;
+  }
+  .sitesummary{
+    display: block;
+  }
+  .sitesummary section{
+    width: 100%;
+    padding: 2vw 0;
+  }
+  .sitesummary div{
+    margin: 2vw 0;
+    height: 24vw;
+  }
+  .sitesummary h1, .text-box1 h1, .p1text-box2 h1{
+    font-size: 5vw;
+    margin-top: -.6vw;
+    margin-bottom: -.7vw;
+  }
+  .p1text-box3 h1{
+    font-size: 4vw;
+    margin-top: -.6vw;
+    margin-bottom: -.7vw;
+  }
+  .sitesummary em, .text-box1 em{
+    font-size: 3.5vw;
+  }
+  .sitesummary p, .text-box1 p{
+    font-size: 3vw;
+    margin-top: .1vw;
+    text-indent: .7vw;
+  }
+  .timelinecontainer p{
+    font-size: 2.2vw;
+  }
+  .text-box1 .highlight{
+    font-size: 3vw;
+  }
+  .sitesummary img{
+    width: 20vw;
+  }
+  .mobilefooter-content img{
+    width: 12vw;
+  }
+  .imageright{
+    width: 40vw;
+  }
+  .text-box1{
+    height: 75vw;
+  }
+  .p1infographic{
+    display: none;
+  }
+  .p1infographicmobile{
+    display: flex;
+  }
+  .p1text-box2{
+    height: 165vw;
+  }
+  .timelinecontainer div{
+    margin: 1vh 2vw;
+  }
+  .bigcontainer{
+    height: 355vw;
+  }
+  .driverbox{
+    width: 100%;
+  }
+  .driverimg{
+    height: 15vw;
+  }
+  .numimg{
+    height: 8vw;
+  }
+  .numimg span, .numimg em{
+    line-height: 4vw;
+  }
+  .bigcontainer em, .bigcontainer span{
+    font-size: 3vw;
+  }
+  .bigcontainer h1{
+    font-size: 6vw;
+  }
+  .drivercontainer section h1 span{
+    font-size: 6vw;
+  }
+  #enginevid{
+    width: 60vw;
+    height: 40vw;
+  }
+  #selection{
+    display: none;
+  }
+}
+@media only screen and (max-width: 450px){
+  .openbtn{
+    top: .3vh;
+  }
+  .mobilefootercaption{
+    font-size: 4vw;
+  }
+}
+@media only screen and (max-width: 400px){
+  .openbtn{
+    top: 0;
+  }
+}
+@media only screen and (max-width: 375px){
+  .mainheader img{
+    padding-bottom: 1vh;
+  }
+  .openbtn{
+    top: 0;
+  }
+}
+@media only screen and (max-width: 320px){
+  .mainheader img{
+    padding-bottom: 1.5vh;
+  }
+  .openbtn{
+    top: -.5vh;
+  }
+}
+@media only screen and (width: 280px) and (height: 653px){
+  .mobilenav a{
+    font-size: 4vw;
+  }
+  .openbtn{
+    top: -.7vh;
+  }
+}

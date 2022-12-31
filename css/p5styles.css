@@ -1,0 +1,92 @@
+/*----------------BACKGROUND CONFIG----------------*/
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/P5.1.png);
+  min-height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+/*----------------CONTENT CONFIGS----------------*/
+#selection{
+  display: flex;
+  width: 100vw;
+  height: 80vh;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+#selection a{
+  width: 20vw;
+  margin: 0vh 2vw;
+  text-decoration: none;
+  transition: ease-out .5s;
+}
+#selection a:hover{
+  transform: scale(1.1);
+}
+#selection div img{
+  width: 18vw;
+  margin: 1vw;
+}
+#selectpractice{
+  background: linear-gradient(90deg, rgba(0,0,0,0.5), rgba(0,0,0,0.6) 70%);
+}
+#selectquali{
+  background: linear-gradient(90deg, rgba(0,0,0,0.6), rgba(0,0,0,0.7) 70%);
+}
+#selectsprint{
+  background: linear-gradient(90deg, rgba(0,0,0,0.7), rgba(0,0,0,0.8) 70%);
+}
+#selectrace{
+  background: linear-gradient(90deg, rgba(0,0,0,0.8), rgba(0,0,0,0.9) 70%);
+}
+#selection h1{
+  font-size: 2.5vw;
+  font-family: 'Cantarell', sans-serif;
+  font-style: bold;
+}
+#selection em, #selection p{
+  color: white;
+  font-size: 2vw;
+}
+h1{
+  color: #f44336;
+  font-size: 3vw;
+  font-family: 'Cantarell', sans-serif;
+}
+#practice{
+  position: relative;
+  margin: 5vw 2.5% 0 2.5%;
+  width: 95%;
+  background-color: rgba(0,0,0,0.3);
+}
+#qualifying{
+  position: relative;
+  margin: 0 2.5% 0 2.5%;
+  width: 95%;
+  background-color: rgba(0,0,0,0.5);
+}
+#sprint{
+  position: relative;
+  margin: 0 2.5% 0 2.5%;
+  width: 95%;
+  background-color: rgba(0,0,0,0.7);
+}
+#race{
+  position: relative;
+  margin: 0 2.5% 0 2.5%;
+  width: 95%;
+  background-color: rgba(0,0,0,0.9);
+}
+  .images{
+    position: relative;
+    width: 84%;
+    margin: 1% 8% .1% 8%;
+  }
+    .imgcaption{
+      display: block;
+      margin-top: 0;
+    }

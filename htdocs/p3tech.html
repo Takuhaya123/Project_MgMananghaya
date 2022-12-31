@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!--Declaration of meta tags and viewports-->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="A. Mananghaya 9-Magnesium">
+  <meta name="keywords" content="F1, Formula 1, Cars, Sport, CSS, HTML">
+  <!--Calling of stylesheet and fonts-->
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/headerfooter.css">
+  <link rel="stylesheet" href="../css/p3styles.css">
+  <link rel="stylesheet" href="../css/mediastyles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <!--Site Logo and Title-->
+  <link rel="icon" href="../images/SiteLogo.png" type=".png">
+  <title>Technology</title>
+</head>
+  
+<!--Header-->
+<div class="mainheader">
+  <img src="../images/Header.png" alt="Header" style="position: relative; position: center; top: 5%;">
+  <div id="mobilenav" class="mobilenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+    <a href="../index.html">HOME</a>
+    <a href="p1overview.html">OVERVIEW</a>
+    <a href="p2drivers.html">DRIVERS (2022)</a>
+    <a href="p3tech.html">TECHNOLOGY AND LOGISTICS</a>
+    <a href="p4halloffame.html">HALL OF FAME</a>
+    <a href="p5raceweek.html">RACE WEEK</a>
+    <a href="sources.html">SOURCES</a>
+  </div>
+  <button class="openbtn" onclick="openNav()">☰</button>
+</div>
+
+  <div class="header" id="header">
+    <div class="nav-links">
+      <ul>
+        <li><a href="../index.html">HOME</a></li>
+        <li><a href="p1overview.html">OVERVIEW</a></li>
+        <li><a href="p2drivers.html">DRIVERS (2022)</a></li>
+        <li><a href="p3tech.html">TECHNOLOGY AND LOGISTICS</a></li>
+        <li><a href="p4halloffame.html">HALL OF FAME</a></li>
+        <li><a href="p5raceweek.html">RACE WEEK</a></li>
+        <li><a href="sources.html">SOURCES</a></li>
+      </ul>
+    </div>
+  </div>
+
+<!--Contents-->
+
+<div class="text-box1">
+  <iframe id="enginevid" src="https://www.youtube.com/embed/ZQvfHyfgBtA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <h1>Engines</h1>
+  <em>The Heart of the Beast</em>
+  <p>
+    <span> A typical engine works using a </span>
+    <span class="highlight">4-stroke cycle; Intake, Compression, Power, and Exhaust.</span>
+    <span>Nowadays, F1 cars are still powered by engines using the same principles, but are accompanied by </span>
+    <span class="highlight">advanced technology</span>
+    <span>to get the most out of current technological capacities. </span <span>Nowadays, these units in an F1 car are called</span>
+    <span class="highlight">Power Units.</span>
+    <span>They are hybrids; part combustion and part electric. Aside from an internal combustion engine, it also utilizes electric motors powered by a system called</span>
+    <span class="highlight">ERS (Energy Recovery System).</span>
+    <span>These power units produce around</span>
+    <span class="highlight">1,000 horsepower</span>
+    <span>, with the engine revving at around </span>
+    <span class="highlight">15,000 rpm (revolutions per minute).</span>
+    <span>To compare, an average road car has around</span>
+    <span class="highlight">100 horsepower</span>
+    <span>with an engine revving to a maximum of around</span>
+    <span class="highlight">6000 rpm.</span>
+  </p>
+</div>
+
+<div class="componentscontainer">
+  <h1>Inspect The 2022 Car</h1>
+  <em style="font-size: 2vw; margin-left: 1%;">Click the buttons</em>
+  <div class="components">
+  <img src="../images/Page 3/powerunit.png" alt="Power Unit" title="Power Unit" ID="powerunit">
+<!--Descriptions-->
+<!--------------TIRES------------->
+    <div class="Tires">
+      <a onclick="displaytires(); scaledisplay();"><img src="../images/Page 3/p3btn.png" id="tiresbtn"></a>
+      <div id="Tiresdesc">
+      <a onclick="removetires()"><img src="../images/Page 3/p3btn.png" id="removetires"></a>
+        <h1>Tires</h1>
+        <p>
+          <span>F1 uses a wide set of tires, with their key differences being their</span>
+          <span class="highlight">hardness and weather condition.</span>
+          <span> Typically, drivers replace these tires at least once per race, which is called a </span>
+          <span class="highlight">pit stop.</span>
+          <span>Here's the list of F1 tires:</span>
+        </p>
+          <div class="tiretypesdisplay">
+          <img src="../images/Page 3/tiretypes.png" alt="Types of F1 Tires" title="Types of F1 Tires" id="tiretypes">
+        <p>
+          <span>From Softs to Hards, the grip </span>
+          <span class="highlight">decreases</span>
+          <span> but durability </span>
+          <span class="highlight">increases</span>
+          <span> due to more tire pressure in the latter. There are also specialized tire types of</span>
+          <span class="highlight">Intermediates and Wets</span>
+          <span>for particular weather conditions.</span>
+        </p>
+          </div>
+      </div>
+    </div>
+<!--------------AERODYNAMICS------------->
+    <div class="Aero">
+      <a onclick="displayaero()"><img src="../images/Page 3/p3btn.png" id="aerobtn"></a>
+      <div id="Aerodesc">
+      <a onclick="removeaero()"><img src="../images/Page 3/p3btn.png" id="removeaero"></a>
+        <h1 style= "text-align: right">Aerodynamics</h1>
+        <p>
+          <span>A large variety of </span>
+          <span class="highlight">bodywork</span>
+          <span> and </span>
+          <span class="highlight">aerodynamic features</span>
+          <span> are utilized for maximum speed.</span>
+          <span> One of the most famous systems in relation to F1 aerodynamics is the DRS or Drag Reduction System.</span>
+        </p>
+          <div class="drsdisplay">
+          <img src="../images/Page 3/drs.png" alt="DRS" title="DRS" id="DRS">
+        <p>
+          <span>The wing of an F1 car can </span>
+          <span class="highlight">open or close</span>
+          <span> to </span>
+          <span class="highlight">increase top speed or increase grip, respectively.</span>
+          <span> It is typically open in straights where the car does not require the extra downforce, which in that scenario just hinders it. It closes again when the grip is needed in the turns. Over the years, aerodynamic features of F1 cars have been improved to reduce </span>
+          <span class="highlight">"dirty air" </span>
+          <span>to make the sport more fair and balanced for all competitors.</span>
+        </p>
+          </div>
+      </div>
+    </div>
+<!--------------ICE------------->
+    <div class="Ice">
+      <a onclick="displayice()"><img src="../images/Page 3/p3btn.png" id="icebtn"></a>
+      <div id="Icedesc">
+      <a onclick="removeice()"><img src="../images/Page 3/p3btn.png" id="removeice"></a>
+        <h1>Power Unit</h1>
+        <p>
+          <span>The power unit is the </span>
+          <span class="highlight">heart</span>
+          <span> of an F1 car. It consists of the</span>
+          <span class="highlight">ICE, or Internal Combustion Engine, Turbos, Control Systems, and two Motor Generators for Kinetic and Heat energy.</span>
+          <span> These systems and components work in unison to provide the driver immediate speed and precise control over and </span>
+          <span class="highlight">throttle</span>
+          <span> and </span>
+          <span class="highlight">allocation.</span>
+          <span>The MGU-K utilizes </span>
+          <span class="highlight">kinetic energy produced from braking</span>
+          <span> and converts it to </span>
+          <span class="highlight">electrical energy</span>
+          <span>. Meanwhile, the MGU-H uses </span>
+          <span class="highlight">excess energy used by the turbo</span>
+          <span> to generate electrical energy. This electrical energy generated can be </span>
+          <span class="highlight">stored and used by the car for more speed.</span>
+        </p>
+      </div>
+    </div>
+<!--------------Halo------------->
+    <div class="Halo">
+      <a onclick="displayhalo()"><img src="../images/Page 3/p3btn.png" id="halobtn"></a>
+      <div id="Halodesc">
+      <a onclick="removehalo()"><img src="../images/Page 3/p3btn.png" id="removehalo"></a>
+        <h1>Safety</h1>
+        <p>
+          <span>Since F1 is a dangerous sport, many safety measures such as </span>
+          <span class="highlight">fireproof gear, protective clothing and engineering, and various regulations</span>
+          <span> have been made to keep the sport as safe as possible. One of the most recent and notable steps in achieveing this was the </span>
+          <span class="highlight">halo.</span>
+          <span>The halo is a component used to protect the driver in violent crashes, resembling a halo; hence its name. Since its implementation in 2016, </span>
+          <span class="highlight">it has saved the lives of numerous drivers.</span>
+          <span>It is made from </span>
+          <span class="highlight">grade 5 titanium, the likes that are used for aerospace, covered in carbon fiber.</span>
+          <span> It is considered the most sturdy part of an F1 car, and according to Mercedes, it is strong enough to </span>
+          <span class="highlight">hold up a whole school bus.</span>
+        </p>
+      </div>
+    </div>
+<!--------------STEERING WHEEL------------->
+    <div class="Strwheel">
+      <a onclick="displaystrwheel()"><img src="../images/Page 3/p3btn.png" id="strwheelbtn"></a>
+      <div id="Strwheeldesc">
+      <a onclick="removestrwheel()"><img src="../images/Page 3/p3btn.png" id="removestrwheel"></a>
+        <h1>Steering Wheel</h1>
+        <p>
+          <span>The current F1 steering wheel is very different from the usual rounded ones with a horn and a few buttons. Modern technology has evolved it into what it is now. The modern steering wheel for F1 consists of various buttons for</span>
+          <span class="highlight"> basically anything the driver needs; brake balancing, DRS, differential settings, you name it.</span>
+        </p>
+          <div class="strwheeldisplay">
+          <img src="../images/Page 3/strwheel.png" alt="F1 Steering Wheel" title="F1 Steering Wheel" id="strwheel">
+        <p>
+          <span>The steering wheel on the left is </span>
+          <span class="highlight">7-Time World Champion Lewis Hamilton's steering wheel for the 2019 season.</span>
+          <span> The drivers are heavily involved in its development as </span>
+          <span class="highlight">each driver ideally has a personal preference in configuring the buttons and the ergonomics of the wheel.</span>
+        </p>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Footer-->
+<section class="footer" style= "bottom: 0;">
+    <div class="column" id="footercolumn1">
+    <p style="font-family: 'Oswald', sans-serif;">
+      <a href="https://www.formula1.com/" class="anch" target="_blank"> <img src="../images/footersprite.png" alt="F1" id="OfficialF1"> Official F1 Page</a><br></p>
+    <p style="font-family: 'Oswald', sans-serif; margin-top: 1vh;">
+      <a href="https://twitter.com/f1" class="anch" target="_blank"> <img src="../images/footersprite.png" alt="Twitter" id="Twitter"> Official F1 Twitter</a><br>
+    </p>
+  </div>
+  <div class="column" id="footercolumn2">
+    <p style="font-family: 'Oswald', sans-serif; text-align: right;">
+      <a href="https://www.tiktok.com/@f1?lang=en#:~:text=Formula%201%20(%40f1)%20Official,Formula%201%27s%20Newest%20TikTok%20Videos" class="anch" target="_blank">Official F1 TikTok <img src="../images/footersprite.png" alt="TikTok" id="TikTok"></a><br></p>
+    <p style="font-family: 'Oswald', sans-serif; margin-top: 1vh; text-align: right;">
+      <a href="https://www.formula1.com/en/racing/2022.html" class="anch" target="_blank">2022 Season Schedule <img src="../images/footersprite.png" alt="Calendar" id="Calendar"></a></p>
+  </div>
+</section>
+
+<section class="mobilefooter" style= "position: absolute; bottom: 0;">
+  <p class="mobilefootercaption">Want to catch up on the race?</p>
+  <div class="mobilefooter-content">
+    <a href="https://www.formula1.com/" class="anch"> <img src="../images/F1.png" alt="F1"></a>
+    <a href="https://twitter.com/f1" class="anch"> <img src="../images/Twitter.png" alt="Twitter"></a>
+    <a href="https://www.tiktok.com/@f1?lang=en#:~:text=Formula%201%20(%40f1)%20Official,Formula%201%27s%20Newest%20TikTok%20Videos" class="anch"><img src="../images/TikTok.png" alt="F1"></a>
+    <a href="https://www.formula1.com/en/racing/2022.html" class="mobanch"><img src="../images/Calendar.png" alt="Calendar"></a>
+  </div>
+</section>
+
+<!--Script for fixed part of header-->
+<script>
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("header");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+</script>
+<!--Script for mobile nav-->
+<script>
+  function openNav() {
+  document.getElementById("mobilenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mobilenav").style.width = "0";
+}
+</script>
+<!--Script for buttons-->
+<script>
+  function displaytires(){
+    document.getElementsByClassName("components")[0].style.transformOrigin = "75% 50%";
+    document.getElementById("Tiresdesc").style.display = "inline";
+    document.getElementById("Tiresdesc").style.animationName = "descriptions-enter";
+    document.getElementsByClassName("componentscontainer")[0].style.height = "50vw";
+    setTimeout(()=>{
+      document.getElementsByClassName("components")[0].style.transform = "scale(3,3) translateY(-2%)";
+    }
+    , 300);
+}
+  function removetires(){
+    document.getElementById("Tiresdesc").style.animationName = "descriptions-exit";
+    document.getElementsByClassName("componentscontainer")[0].style.height = "32vw";
+    document.getElementsByClassName("components")[0].style.transform = "scale(1,1) translateY(2%)";
+    setTimeout(()=>{
+      document.getElementsByClassName("components")[0].style.transformOrigin = "50% 50%";
+    }
+    , 1000);
+    setTimeout(()=>{
+      document.getElementById("Tiresdesc").style.display = "none";
+    }
+    , 2000);
+  }
+
+  
+  function displayaero(){
+    document.getElementsByClassName("components")[0].style.transformOrigin = "9% 25%";
+    document.getElementById("Aerodesc").style.display = "inline";
+    document.getElementById("Aerodesc").style.animationName = "descriptions-enter";
+    document.getElementsByClassName("componentscontainer")[0].style.height = "50vw";
+    setTimeout(()=>{
+      document.getElementsByClassName("components")[0].style.transform = "scale(3,3) translateY(-2%)";
+    }
+    , 300);
+}
+  function removeaero(){
+    document.getElementById("Aerodesc").style.animationName = "descriptions-exit";
+    document.getElementsByClassName("componentscontainer")[0].style.height = "32vw";
+    document.getElementsByClassName("components")[0].style.transform = "scale(1,1) translateY(2%)";
+    setTimeout(()=>{
+      document.getElementsByClassName("components")[0].style.transformOrigin = "50% 50%";
+    }
+    , 1000);
+    setTimeout(()=>{
+      document.getElementById("Aerodesc").style.display = "none";
+    }
+    , 2000);
+  }
+
+
+  function displayice(){
+    document.getElementsByClassName("components")[0].style.transformOrigin = "15% 25%";
+    document.getElementById("Icedesc").style.display = "inline";
+    document.getElementById("Icedesc").style.animationName = "descriptions-enter";
+    document.getElementById("powerunit").style.display = "inline";
+    document.getElementById("powerunit").style.animationName = "powerunit-enter";
+    document.getElementsByClassName("componentscontainer")[0].style.height = "50vw";
+    setTimeout(()=>{
+      document.getElementsByClassName("components")[0].style.transform = "scale(3,3) translateY(-2%)";
+    }
+    , 300);
+}
+  function removeice(){
+    document.getElementById("Icedesc").style.animationName = "descriptions-exit";
+    document.getElementsByClassName("componentscontainer")[0].style.height = "32vw";
+    document.getElementsByClassName("components")[0].style.transform = "scale(1,1) translateY(2%)";
+    setTimeout(()=>{
+      document.getElementsByClassName("components")[0].style.transformOrigin = "50% 50%";
+    }
+    , 1000);
+    setTimeout(()=>{
+      document.getElementById("Icedesc").style.display = "none";
+    }
+    , 2000);
+    setTimeout(()=>{
+      document.getElementById("powerunit").style.animationName = "powerunit-exit";
+    }
+    , 500);
+    setTimeout(()=>{
+      document.getElementById("powerunit").style.display = "none";
+    }
+    , 1000);
+  }
+
+  
+  function displayhalo(){
+    document.getElementsByClassName("components")[0].style.transformOrigin = "40% 25%";
+    document.getElementById("Halodesc").style.display = "inline";
+    document.getElementById("Halodesc").style.animationName = "descriptions-enter";
+    document.getElementsByClassName("componentscontainer")[0].style.height = "50vw";
+    setTimeout(()=>{
+      document.getElementsByClassName("components")[0].style.transform = "scale(3,3) translateY(-2%)";
+    }
+    , 300);
+}
+  function removehalo(){
+    document.getElementById("Halodesc").style.animationName = "descriptions-exit";
+    document.getElementsByClassName("componentscontainer")[0].style.height = "32vw";
+    document.getElementsByClassName("components")[0].style.transform = "scale(1,1) translateY(2%)";
+    setTimeout(()=>{
+      document.getElementsByClassName("components")[0].style.transformOrigin = "50% 50%";
+    }
+    , 1000);
+    setTimeout(()=>{
+      document.getElementById("Halodesc").style.display = "none";
+    }
+    , 2000);
+  }
+
+
+  function displaystrwheel(){
+    document.getElementsByClassName("components")[0].style.transformOrigin = "40% 45%";
+    document.getElementById("Strwheeldesc").style.display = "inline";
+    document.getElementById("Strwheeldesc").style.animationName = "descriptions-enter";
+    document.getElementsByClassName("componentscontainer")[0].style.height = "50vw";
+    setTimeout(()=>{
+      document.getElementsByClassName("components")[0].style.transform = "scale(3,3) translateY(-2%)";
+    }
+    , 300);
+}
+  function removestrwheel(){
+    document.getElementById("Strwheeldesc").style.animationName = "descriptions-exit";
+    document.getElementsByClassName("componentscontainer")[0].style.height = "32vw";
+    document.getElementsByClassName("components")[0].style.transform = "scale(1,1) translateY(2%)";
+    setTimeout(()=>{
+      document.getElementsByClassName("components")[0].style.transformOrigin = "50% 50%";
+    }
+    , 1000);
+    setTimeout(()=>{
+      document.getElementById("Strwheeldesc").style.display = "none";
+    }
+    , 2000);
+  }
+</script>
+</body>
+</html>

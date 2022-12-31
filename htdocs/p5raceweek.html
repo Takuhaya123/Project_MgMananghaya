@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!--Declaration of meta tags and viewports-->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="A. Mananghaya 9-Magnesium">
+  <meta name="keywords" content="F1, Formula 1, Cars, Sport, CSS, HTML">
+  <!--Calling of stylesheet and fonts-->
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/headerfooter.css">
+  <link rel="stylesheet" href="../css/p5styles.css">
+  <link rel="stylesheet" href="../css/mediastyles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <!--Site Logo and Title-->
+  <link rel="icon" href="../images/SiteLogo.png" type=".png">
+  <title>Race Week</title>
+
+<!--Script for displaying the scroll button-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script>
+$(window).scroll(function() {
+    if ($(this).scrollTop()>200)
+     {
+        $('.scrolltotop').fadeIn();
+     }
+    else
+     {
+      $('.scrolltotop').fadeOut();
+     }
+ });
+</script>
+</head>
+  
+<!--Header-->
+<div class="mainheader">
+  <img src="../images/Header.png" alt="Header" style="position: relative; position: center; top: 5%;">
+  <div id="mobilenav" class="mobilenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+    <a href="../index.html">HOME</a>
+    <a href="p1overview.html">OVERVIEW</a>
+    <a href="p2drivers.html">DRIVERS (2022)</a>
+    <a href="p3tech.html">TECHNOLOGY AND LOGISTICS</a>
+    <a href="p4halloffame.html">HALL OF FAME</a>
+    <a href="p5raceweek.html">RACE WEEK</a>
+    <a href="sources.html">SOURCES</a>
+  </div>
+  <button class="openbtn" onclick="openNav()">☰</button>
+</div>
+
+  <div class="header" id="header">
+    <div class="nav-links">
+      <ul>
+        <li><a href="../index.html">HOME</a></li>
+        <li><a href="p1overview.html">OVERVIEW</a></li>
+        <li><a href="p2drivers.html">DRIVERS (2022)</a></li>
+        <li><a href="p3tech.html">TECHNOLOGY AND LOGISTICS</a></li>
+        <li><a href="p4halloffame.html">HALL OF FAME</a></li>
+        <li><a href="p5raceweek.html">RACE WEEK</a></li>
+        <li><a href="sources.html">SOURCES</a></li>
+      </ul>
+    </div>
+  </div>
+
+<!--Contents-->
+
+<div id="scroll"></div>
+
+<section id="selection">
+<a href="#practice">
+  <div id="selectpractice">  
+    <h1>PRACTICE</h1>
+    <em>The First Step</em>
+    <img src="../images/P5.2.png" alt="Practice" title="Practice" style="opacity: 0.6;">
+  </div></a>
+<a href="#qualifying">
+  <div id="selectquali">
+    <h1>QUALIFYING</h1>
+    <em>Prove Yourself</em>
+    <img src="../images/P5.3.png" alt="Qualifying" title="Qualifying" style="opacity: 0.7;">
+  </div></a>
+<a href="#sprint">
+  <div id="selectsprint">
+    <h1>SPRINT</h1>
+    <em>A Taste of Thrill</em>
+    <img src="../images/P5.4.png" alt="Sprint" title="Sprint" style="opacity: 0.8;">
+  </div></a>
+<a href="#race">
+  <div id="selectrace">
+    <h1>RACE</h1>
+    <em>A Grand Finale</em>
+    <img src="../images/P5.5.png" alt="Race" title="Race" style="opacity: 0.9;">
+  </div></a>
+</section>
+
+<section id="practice">
+  <div class="text-box1" style="background-color: transparent; height: auto; margin-bottom: 0;">
+  <h1>Practice</h1>
+  <p>Practice typically occurs during Friday, with three seperate sessions. In these sessions, drivers can go on the track and get to know the track, its conditions, and their car. Drivers can test the track in any order they want, as long as they do not hinder the practice of other drivers in the session. The teams can also practice things such as communications and pit stops. The lap times of the drivers are recorded for documentation purposes, and do not affect championship standings in any way.</p>
+  <div style="text-align: center;">
+  <img src="../images/P5.6.png" class="images" alt="Mercedes' Lewis Hamilton during practice session 1 at Australia, 2019">
+  <em class="imgcaption" style="font-size: 2vw;">Mercedes' Lewis Hamilton during practice session 1 at Australia, 2019</em>
+  </div>
+</section>
+
+<section id="qualifying">
+  <div class="text-box1" style="background-color: transparent; height: auto; margin-top: 0; margin-bottom: 0;">
+  <h1>Qualifying</h1>
+  <p>The F1 Qualifying session is a series of 3 timed sessions, wherein drivers who were not able to perform lap times good enough to beat other drivers at the track are eliminated, until only 10 remain, or half the roster. These 10 have another go at the track and the fastest gets to start the race on what is called the pole position. This position has an advantage as they start ahead of everyone else for the race. The first, second, and third placers of qualifying also get points for the Drivers Championship, giving 3, 2, and 1 point respectively.</p>
+  <div style="text-align: center;">
+  <img src="../images/P5.7.png" class="images" alt="McLaren's Lando Norris Going 4th Fastest in Qualifying for the Austrian GP, 2020">
+  <em class="imgcaption" style="font-size: 2vw;">McLaren's Lando Norris Going 4th Fastest in Qualifying for the Austrian GP, 2020</em>
+  </div>
+</section>
+
+<section id="sprint">
+  <div class="text-box1" style="background-color: transparent; height: auto; margin-top: 0; margin-bottom: 0;">
+  <h1>Sprint</h1>
+  <p>This format made its debut in 2021 at Silverstone. It is a race run over 100km, lasting around half an hour. It was designed to provide the fans a short, fast paced mini-race, full of tight battles and close racing, before the main race the following day. The results of qualifying determine the positioning of drivers at the start of the sprint, while the end results of the sprint determine the positions of the drivers on race day. The first, second, and third drivers are all awarded championship points, amounting the same as opposed to qualifying; 3, 2, and 1 point, respectively.</p>
+  <div style="text-align: center;">
+  <img src="../images/P5.8.png" class="images" alt="Turn 1 of Sprint Qualifying in Silverstone, 2020">
+  <em class="imgcaption" style="font-size: 2vw;">Turn 1 of Sprint Qualifying in Silverstone, 2020</em>
+  </div>
+</section>
+
+<section id="race">
+  <div class="text-box1" style="background-color: transparent; height: auto; margin-top: 0;">
+  <h1>Race</h1>
+  <p>The F1 Qualifying session is a series of 3 timed sessions, wherein drivers who were not able to perform lap times good enough to beat other drivers at the track are eliminated, until only 10 remain, or half the roster. These 10 have another go at the track and the fastest gets to start the race on what is called the pole position. This position has an advantage as they start ahead of everyone else for the race. The first, second, and third placers of qualifying also get points for the Drivers Championship, giving 3, 2, and 1 point respectively.</p>
+  <div style="text-align: center;">
+    <img src="../images/P5.9.png" class="images" alt="Red Bull's Outstanding 1.91s Pit Stop at Silverstone, 2019">
+  <em class="imgcaption" style="font-size: 2vw;">Red Bull's Outstanding 1.91s Pit Stop at Silverstone, 2019</em>
+    <img src="../images/P5.10.png" class="images" alt="Red Bull's Max Verstappen Wins Season Finale at Abu Dhabi, Crowned World Champion after Tight Championship Battle, 2021">
+  <em class="imgcaption" style="font-size: 2vw;">Red Bull's Max Verstappen Wins Season Finale at Abu Dhabi, Crowned World Champion after Tight Championship Battle, 2021</em>
+  </div>
+</section>
+  
+<a href="#scroll"class="scrolltotop">⇧</a>
+
+<!--Footer-->
+<section class="footer" style= "bottom: 0;">
+    <div class="column" id="footercolumn1">
+    <p style="font-family: 'Oswald', sans-serif;">
+      <a href="https://www.formula1.com/" class="anch" target="_blank"> <img src="../images/footersprite.png" alt="F1" id="OfficialF1"> Official F1 Page</a><br></p>
+    <p style="font-family: 'Oswald', sans-serif; margin-top: 1vh;">
+      <a href="https://twitter.com/f1" class="anch" target="_blank"> <img src="../images/footersprite.png" alt="Twitter" id="Twitter"> Official F1 Twitter</a><br>
+    </p>
+  </div>
+  <div class="column" id="footercolumn2">
+    <p style="font-family: 'Oswald', sans-serif; text-align: right;">
+      <a href="https://www.tiktok.com/@f1?lang=en#:~:text=Formula%201%20(%40f1)%20Official,Formula%201%27s%20Newest%20TikTok%20Videos" class="anch" target="_blank">Official F1 TikTok <img src="../images/footersprite.png" alt="TikTok" id="TikTok"></a><br></p>
+    <p style="font-family: 'Oswald', sans-serif; margin-top: 1vh; text-align: right;">
+      <a href="https://www.formula1.com/en/racing/2022.html" class="anch" target="_blank">2022 Season Schedule <img src="../images/footersprite.png" alt="Calendar" id="Calendar"></a></p>
+  </div>
+</section>
+
+<section class="mobilefooter" style="bottom: 0;">
+  <p class="mobilefootercaption">Want to catch up on the race?</p>
+  <div class="mobilefooter-content">
+    <a href="https://www.formula1.com/" class="anch"> <img src="../images/F1.png" alt="F1"></a>
+    <a href="https://twitter.com/f1" class="anch"> <img src="../images/Twitter.png" alt="Twitter"></a>
+    <a href="https://www.tiktok.com/@f1?lang=en#:~:text=Formula%201%20(%40f1)%20Official,Formula%201%27s%20Newest%20TikTok%20Videos" class="anch"><img src="../images/TikTok.png" alt="F1"></a>
+    <a href="https://www.formula1.com/en/racing/2022.html" class="mobanch"><img src="../images/Calendar.png" alt="Calendar"></a>
+  </div>
+</section>
+
+<!--Script for mobile nav-->
+<script>
+  function openNav() {
+  document.getElementById("mobilenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mobilenav").style.width = "0";
+}
+</script>
+<!--Script for smooth scrolling-->
+<script>
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
+</script>
+</body>
+</html>
